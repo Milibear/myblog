@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- 加载公共的页头组件标签 -->
+    <my-header></my-header>
+    <router-view/>
   </div>
 </template>
 
